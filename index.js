@@ -1,5 +1,4 @@
-(() => {
-  class BMICalculator extends React.Component {
+class BMICalculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -56,8 +55,5 @@
     )
   }
 }
-console.log("hello!");
-
+console.log("Hello!");
 ReactDOM.render(<BMICalculator/>, document.getElementById('app'));
-
-});
