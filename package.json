@@ -4,6 +4,7 @@
   "description": "Code test for react",
   "main": "index.js",
   "scripts": {
+    "compile": "babel --presets @babel/preset-react,@babel/preset-env --plugins @babel/plugin-transform-react-jsx ./index.js --out-file compiled.js"
   },
   "repository": {
     "type": "git",
